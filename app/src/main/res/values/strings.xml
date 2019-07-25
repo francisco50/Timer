@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false"><i><b>CORRETE</b></i></string>
+    <string name="run"><b>Just Run</b></string>
+    <string name="fivek"><b>Run 5k</b></string>
+    <string name="tenk"><b>Run 10k</b></string>
+    <string name="welcome">CORRETE</string>
+    <string name="go"><b><i> GO!! </i></b></string>
+    <string name="stop">STOP</string>
+</resources>

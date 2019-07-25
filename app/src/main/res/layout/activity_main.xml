@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/runb"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main">
+
+    </include>
+    <TextView
+        android:id="@+id/textwelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/text_design"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/colorAccent"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        tools:visibility="visible" />
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="138dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_design"
+        android:onClick="onJustRun"
+        android:text="@string/run"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/fiveK"
+        android:layout_width="181dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_design"
+        android:onClick="onFiveK"
+        android:text="@string/fivek"
+        android:textSize="36sp" />
+    <Button
+        android:id="@+id/tenK"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_design"
+        android:onClick="onTenK"
+        android:text="@string/tenk"
+        android:textSize="36sp" />
+
+</LinearLayout>
